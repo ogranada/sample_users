@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User should render correctly 1`] = `
+<div
+  className="User"
+>
+  <img
+    alt=""
+    className="User-picture"
+    src="http://fake.path"
+  />
+  <span
+    className="User-name"
+  >
+    Oscar Granada
+  </span>
+</div>
+`;

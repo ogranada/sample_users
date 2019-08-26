@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User should render correctly 1`] = `
+<div
+  className="Userslist"
+>
+  <table
+    className="Userslist-table"
+  >
+    <thead
+      className="Userslist-head"
+    >
+      <tr>
+        <th>
+          Name
+        </th>
+        <th
+          className="Userslist-centeredColumn"
+        >
+          Status
+        </th>
+        <th
+          className="Userslist-centeredColumn"
+        >
+          Actions
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="Userslist-body"
+    >
+      <tr
+        key="0"
+      >
+        <td>
+          <User
+            user={
+              Object {
+                "firstname": "Oscar",
+                "fullname": "Oscar Granada",
+                "lastname": "Granada",
+                "picture": "http://fake.path",
+              }
+            }
+          />
+        </td>
+        <td
+          className="Userslist-centeredColumn"
+        >
+          <i
+            className="fa fa-check"
+          />
+        </td>
+        <td
+          className="Userslist-centeredColumn"
+        >
+          <button
+            className="Userslist-button"
+          >
+            <i
+              className="fa fa-pencil"
+            />
+          </button>
+          <button
+            className="Userslist-button Userslist-deleteButton"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-trash-o"
+            />
+          </button>
+        </td>
+      </tr>
+      <tr
+        key="1"
+      >
+        <td>
+          <User
+            user={
+              Object {
+                "firstname": "Oscar",
+                "fullname": "Oscar Granada",
+                "lastname": "Granada",
+                "picture": "http://fake.path",
+              }
+            }
+          />
+        </td>
+        <td
+          className="Userslist-centeredColumn"
+        >
+          <i
+            className="fa fa-check"
+          />
+        </td>
+        <td
+          className="Userslist-centeredColumn"
+        >
+          <button
+            className="Userslist-button"
+          >
+            <i
+              className="fa fa-pencil"
+            />
+          </button>
+          <button
+            className="Userslist-button Userslist-deleteButton"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-trash-o"
+            />
+          </button>
+        </td>
+      </tr>
+      <tr
+        key="2"
+      >
+        <td>
+          <User
+            user={
+              Object {
+                "firstname": "Oscar",
+                "fullname": "Oscar Granada",
+                "lastname": "Granada",
+                "picture": "http://fake.path",
+              }
+            }
+          />
+        </td>
+        <td
+          className="Userslist-centeredColumn"
+        >
+          <i
+            className="fa fa-check"
+          />
+        </td>
+        <td
+          className="Userslist-centeredColumn"
+        >
+          <button
+            className="Userslist-button"
+          >
+            <i
+              className="fa fa-pencil"
+            />
+          </button>
+          <button
+            className="Userslist-button Userslist-deleteButton"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-trash-o"
+            />
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

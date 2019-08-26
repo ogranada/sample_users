@@ -1,0 +1,13 @@
+.User {
+    display: flex;
+    align-items: center;
+
+    &-picture {
+        border-radius: 50%;
+    }
+
+    &-name {
+        padding-left: 1em;
+    }
+
+}
